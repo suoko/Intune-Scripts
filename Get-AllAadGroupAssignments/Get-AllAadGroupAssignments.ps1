@@ -215,3 +215,6 @@ Get-Topic -topicHeadline "Enrollment Status Page" -groupId $group.id -uri "devic
 
 # Security baselines
 Get-Topic -topicHeadline "Security baselines" -groupId $group.id -uri "deviceManagement" -type "intents" -uriAssignment "assignments"
+
+# Quality updates
+Get-Topic -topicHeadline "Quality updates" -groupId $group.id -uri "deviceManagement" -type "windowsQualityUpdateProfiles" -uriAssignment "assignments"
